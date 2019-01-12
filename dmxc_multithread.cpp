@@ -9,7 +9,7 @@ based on i7 and i5 with corresponding
 sample names in a BCsplit file.
 assumes one line sequence in the fastq, six bp i7 and six bp i5 at end of header line format i7+i5
 Written to work with GT-seq protocolas 
-and data managment at EFGL
+and data management at EFGL
 To execute, in command line type: dmxc ./path/to/BCsplit_file.csv ./path/to/library.fq
 or type: dmxc -bc ./path/to/BCsplit_file.csv -lib ./path/to/library.fq -t num_threads_to_use
 -t is optional, default is max number of threads available
