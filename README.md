@@ -1,7 +1,5 @@
 # GTsEagle
-A new pipeline for analyzing GT-seq data
-
-Currently in development. Only the demultiplexing program (dmxc) is developed enough to be made public in its current form.
+Tools for analyzing GT-seq data
 
 dmxc
 
@@ -24,10 +22,10 @@ All fields must be present, but only SampleName, SampleType, i7_sequence, and i5
 To run dmxc, use one of the following syntax options:
 
 dmxc /path/to/BCsplit_file.csv /path/to/library.fq  
-  Note: using this syntax implies using as many threads as your system has cores
+  Note: using this syntax implies using as many threads as your system has
   
 or
 
 dmxc -bc /path/to/BCsplit_file.csv -lib /path/to/library.fq -t max_number_threads_to_use  
-  Note: the -t is optional, if it is not specified, then this implies using as many threads as your system has cores
+  Note: the -t is optional, if it is not specified, then this implies using as many threads as your system has
   
